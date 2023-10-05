@@ -1,7 +1,7 @@
 import { arrowRight } from "@/assets/icons";
 import Button from "@/components/Button";
 import { shoes, statistics } from "@/constants";
-import { bigShoe1, bigShoe2 } from "@/assets/images";
+import { bigShoe2 } from "@/assets/images";
 import ShoeCard from "@/components/ShoeCard";
 import { useState } from "react";
 
@@ -29,17 +29,14 @@ const Hero = () => {
             The New Arrival
           </span>
           <br />
-          <span className="text-coral-red inline-block mt-3">
-            Nike
-          </span>{" "}
-          Shoes
+          <span className="text-coral-red inline-block mt-3">Nike</span> Shoes
         </h1>{" "}
         <p
           className="font-montserrat text-slate-gray text-lg leading-8 pt-6
          pb-14 sm:max-w-sm"
         >
-          Discover stylish Nike arrivals, quality comfort, and
-          innovation for your active life
+          Discover stylish Nike arrivals, quality comfort, and innovation for
+          your active life
         </p>
         <Button label="Shop now" iconURL={arrowRight} />
         <div
